@@ -1,9 +1,6 @@
-#!/usr/bin/env python
-# coding: utf-8
 
 # ## Complete Text to ASL finger spelling
 
-# In[2]:
 
 
 # Import Modules
@@ -66,9 +63,6 @@ filename = 'ASL-' + input_str + '.gif'
 path = 'C:/Users/Shirish Shrestha/Desktop/ASLgifs/' + filename
 images[0].save(path, format='GIF', append_images = images[1:], save_all=True, duration=1000,loop = 2)
 IPython.display.Image(filename = path)
-
-
-# In[ ]:
 
 
 
